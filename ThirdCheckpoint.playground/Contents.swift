@@ -20,3 +20,6 @@ for i in 1...100 {
         print(i)
     }
 }
+
+print()
+print(100.isMultiple(of: 3))
