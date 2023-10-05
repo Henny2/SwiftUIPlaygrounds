@@ -42,6 +42,7 @@ struct ManualCar {
     mutating func changeGear(up:Bool = true){
         if (up && self.currentGear < self.maxGear) {
             self.currentGear += 1
+            print("You are now in this gear: \(self.currentGear)")
         }
         else if (up && self.currentGear == self.maxGear){
             print("Sorry you are already in the max gear.")
@@ -51,10 +52,12 @@ struct ManualCar {
         }
         else {
             self.currentGear -= 1
+            print("You are now in this gear: \(self.currentGear)")
         }
     }
 }
 var manCar = ManualCar(model: "Golf 2016 Manual", numSeats: 2, maxGear: 10)
 print(manCar.currentGear)
 manCar.changeGear(up: true)
-
+manCar.changeGear(up: false)
+manCar.changeGear(up: false)
