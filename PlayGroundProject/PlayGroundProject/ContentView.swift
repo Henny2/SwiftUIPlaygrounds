@@ -9,9 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Form{
-            Text("Hi")
+        NavigationStack{
+            Form{
+                Text("Hi")
+            }
+            
+            .navigationTitle("Henny's First App")
         }
+        
     }
 }
 
