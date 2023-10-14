@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400B32382ADA391800155D4C /* StacksButtonsImagesPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B32372ADA391800155D4C /* StacksButtonsImagesPlayground.swift */; };
+		400B323A2ADA3D8100155D4C /* GradientPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B32392ADA3D8100155D4C /* GradientPlayground.swift */; };
+		400B323C2ADA408D00155D4C /* DynamicStacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B323B2ADA408D00155D4C /* DynamicStacks.swift */; };
+		400B323E2ADA432C00155D4C /* AlertPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B323D2ADA432C00155D4C /* AlertPlayground.swift */; };
 		409F21E52AD4F92E00BDC3BA /* PlayGroundProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F21E42AD4F92E00BDC3BA /* PlayGroundProjectApp.swift */; };
-		409F21E72AD4F92E00BDC3BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F21E62AD4F92E00BDC3BA /* ContentView.swift */; };
+		409F21E72AD4F92E00BDC3BA /* FormPlayGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409F21E62AD4F92E00BDC3BA /* FormPlayGroundView.swift */; };
 		409F21E92AD4F92F00BDC3BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409F21E82AD4F92F00BDC3BA /* Assets.xcassets */; };
 		409F21EC2AD4F92F00BDC3BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409F21EB2AD4F92F00BDC3BA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400B32372ADA391800155D4C /* StacksButtonsImagesPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksButtonsImagesPlayground.swift; sourceTree = "<group>"; };
+		400B32392ADA3D8100155D4C /* GradientPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientPlayground.swift; sourceTree = "<group>"; };
+		400B323B2ADA408D00155D4C /* DynamicStacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicStacks.swift; sourceTree = "<group>"; };
+		400B323D2ADA432C00155D4C /* AlertPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPlayground.swift; sourceTree = "<group>"; };
 		409F21E12AD4F92E00BDC3BA /* PlayGroundProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayGroundProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		409F21E42AD4F92E00BDC3BA /* PlayGroundProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGroundProjectApp.swift; sourceTree = "<group>"; };
-		409F21E62AD4F92E00BDC3BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		409F21E62AD4F92E00BDC3BA /* FormPlayGroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPlayGroundView.swift; sourceTree = "<group>"; };
 		409F21E82AD4F92F00BDC3BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		409F21EB2AD4F92F00BDC3BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				409F21E42AD4F92E00BDC3BA /* PlayGroundProjectApp.swift */,
-				409F21E62AD4F92E00BDC3BA /* ContentView.swift */,
+				409F21E62AD4F92E00BDC3BA /* FormPlayGroundView.swift */,
+				400B32372ADA391800155D4C /* StacksButtonsImagesPlayground.swift */,
+				400B323B2ADA408D00155D4C /* DynamicStacks.swift */,
+				400B323D2ADA432C00155D4C /* AlertPlayground.swift */,
+				400B32392ADA3D8100155D4C /* GradientPlayground.swift */,
 				409F21E82AD4F92F00BDC3BA /* Assets.xcassets */,
 				409F21EA2AD4F92F00BDC3BA /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409F21E72AD4F92E00BDC3BA /* ContentView.swift in Sources */,
+				400B32382ADA391800155D4C /* StacksButtonsImagesPlayground.swift in Sources */,
+				409F21E72AD4F92E00BDC3BA /* FormPlayGroundView.swift in Sources */,
+				400B323C2ADA408D00155D4C /* DynamicStacks.swift in Sources */,
+				400B323E2ADA432C00155D4C /* AlertPlayground.swift in Sources */,
+				400B323A2ADA3D8100155D4C /* GradientPlayground.swift in Sources */,
 				409F21E52AD4F92E00BDC3BA /* PlayGroundProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

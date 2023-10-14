@@ -11,7 +11,7 @@ import SwiftUI
 struct PlayGroundProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FormPlayGroundView()
         }
     }
 }

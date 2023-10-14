@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FormPlayGroundView: View {
     @State var username = ""
     @State var selectedStudent = "Henny"
     let students = ["Henny", "John", "Mary"]
@@ -40,6 +40,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FormPlayGroundView()
     }
 }
